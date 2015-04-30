@@ -60,6 +60,7 @@ dependencies {
     compile 'mysql:mysql-connector-java:5.1.35'
     compile 'com.alibaba:druid:1.0.14'
     compile 'com.alibaba:fastjson:1.2.5'
+    compile 'joda-time:joda-time:2.7'
     
     runtime 'javax.servlet:jstl:1.2'
     runtime 'ch.qos.logback:logback-classic:1.1.3'

@@ -22,7 +22,7 @@
 	</bean>
 
 	<!-- 自动扫描并注入Spring Data JPA -->
-	<jpa:repositories base-package="com.shinetechchina.dao" entity-manager-factory-ref="entityManagerFactory" transaction-manager-ref="transactionManager">
+	<jpa:repositories base-package="com.shinetechchina.repository" entity-manager-factory-ref="entityManagerFactory" transaction-manager-ref="transactionManager">
 	</jpa:repositories>
 
 	<!-- 配置事务管理器 -->
